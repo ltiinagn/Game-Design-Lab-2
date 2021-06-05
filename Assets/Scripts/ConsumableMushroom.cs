@@ -42,7 +42,6 @@ public class ConsumableMushroom : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
         if (!stop) {
-            Debug.Log(col.gameObject.tag);
             if (col.gameObject.CompareTag("Pipe")) {
                 rigidBody.velocity = new Vector2(velocityBefore.x * -1, velocityBefore.y);
             }

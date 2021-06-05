@@ -278,3 +278,4 @@ MonoBehaviour:
   consummablePrefab: {fileID: 4325912781089753266, guid: 43e85e6a7f0942c49a9859c6d50ba8aa, type: 3}
   spriteRenderer: {fileID: 5685272531867690598}
   usedQuestionBox: {fileID: 21300054, guid: 855dc7396df3c4e49ac4d21234eac5e1, type: 3}
+  mushroom: {fileID: 0}
